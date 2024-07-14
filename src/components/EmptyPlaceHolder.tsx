@@ -3,7 +3,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import AddOutlinedIcon from "@mui/icons-material/AddOutlined";
 import { v4 as uuidv4 } from "uuid";
 import { useGlobalContext } from "@/context/ContextApi";
-import { SingleNoteType } from "./Types";
+import { SingleNoteType } from "@/types/Types";
 
 function EmptyPlaceHolder({
   muiIcon,
